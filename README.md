@@ -5,8 +5,8 @@ Solutions to problems sent by dailycodingproblem.com
 ---
 
 Solutions available in <br> 
-[python] (python/)
-[javascript] (javascript/)
+
+### Python & Javascript
 
 
 ---
