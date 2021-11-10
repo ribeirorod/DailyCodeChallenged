@@ -54,7 +54,7 @@ For example, if N is 4, then there are 5 unique ways:
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
-[Solution: python](python/003.py)
+[Solution: python](python/003.py)\
 [PartialSolution: JS](JS/003.js)
 
 ---
@@ -71,8 +71,6 @@ Before we move on any further, you should take some time to think about the solu
 ---
 
 #### Problem 5
-
-Good morning! Here's your coding interview problem for today.
 
 This problem was asked by Google.
 
@@ -94,3 +92,20 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
+
+---
+
+#### Problem 6
+
+
+This problem was asked by Stripe.
+
+Given an array of integers, find the first missing positive integer in linear time and constant space.\ 
+In other words, find the lowest positive integer that does not exist in the array. \
+The array can contain duplicates and negative numbers as well.
+
+For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3.
+
+You can modify the input array in-place.
+
+[Solution: python](python/006.py)
