@@ -15,7 +15,7 @@ def recursive_climber(stairs:int, steps:list):
             print('append', step_size)
         elif stairs > step_size:
             print(' stairs bigger than step, callback')
-            sub_grids = climber(stairs -step_size, steps)
+            sub_grids = recursive_climber(stairs -step_size, steps)
             print('sub_grids',sub_grids)
             for sub_grid in sub_grids:
                 grid.append([step_size]+ sub_grid)
