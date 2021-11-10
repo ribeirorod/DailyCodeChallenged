@@ -36,7 +36,7 @@ Follow-up: what if you can't use division?
 
 ---
 
-## Problem 3
+#### Problem 3
 
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps at a time.
 
@@ -58,7 +58,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 ---
 
-## Problem 004
+#### Problem 4
 
 The question we'll work through is the following: return a new sorted merged list from K sorted lists, each with size N. <br>
 Before we move on any further, you should take some time to think about the solution!
@@ -69,7 +69,7 @@ Before we move on any further, you should take some time to think about the solu
 
 ---
 
-### Problem 005
+#### Problem 5
 
 Good morning! Here's your coding interview problem for today.
 
